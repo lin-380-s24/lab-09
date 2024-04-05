@@ -1,0 +1,29 @@
+---
+title: "Lab 09_Test classification"
+author: "Lin Wang"
+format: html
+---
+
+## Self Assessment
+
+### What did you learn?
+
+- Throughout the chapter 9, I learned about various techniques for building and evaluating supervised machine learning models for text classification and regression tasks. For instance, I learned about feature engineering methods like TF-IDF, model building techniques such as logistic regression and random forest, hyperparameter tuning using cross-validation, and model evaluation metrics like RMSE and accuracy.
+ 
+- From today's class, I learned utilizing functions and workflows provided by the 'tidymodels' package facilitates efficient classification and regression tasks. Through the 'recipe' and 'workflow' functions in 'tidymodels', I can easily create data preprocessing pipelines and model building workflows, along with cross-validation and hyperparameter tuning. Moreover,'parsnip' package allows convenient specification and adjustment of various machine learning models, seamlessly integrating with other functionalities in tidymodels. These insights enhance my understanding of how to leverage tidymodels and related packages for text data analysis and machine learning modeling.
+
+### What did you find most/ least challenging?
+
+- I found understanding the nuances of feature engineering, especially TF-IDF, to be quite challenging initially. However, with practice and experimentation, I gained a better understanding of how to preprocess text data effectively. On the other hand, I found implementing hyperparameter tuning using tidymodels' workflow and tune functions to be relatively straightforward once I grasped the concept.
+
+- Based on our class, I noticed the most challenging part is understanding the workflow and interactions between different functions and packages. Meanwhile, the least challenging part is Syntax consistency and clarity within the code snippets.
+
+### What resources did you consult?
+
+- To enhance my understanding of text classification and regression, I consulted various resources such as online tutorials, documentation of R packages like tidymodels and vip, and academic papers on machine learning techniques. To have a deep understanding of the identificaton, I checked a resource from [monkeylearn](https://monkeylearn.com/text-classification/) instead of only our textbook, and [Youtube](https://www.youtube.com/watch?v=y8UsvtNMMEU). Additionally, I found the examples and explanations provided in my textbook to be particularly helpful in solidifying my understanding of the concepts.
+
+### What more would you like to know about predictive analysis?
+
+- While the chapter covered a wide range of topics related to predictive analysis, I'm particularly interested in delving deeper into advanced techniques such as natural language processing (NLP) for text data, ensemble methods like gradient boosting machines (GBM), and deep learning models like recurrent neural networks (RNNs) for sequential data analysis. Additionally, I'm keen on exploring real-world applications of predictive analysis across different domains such as healthcare, finance, and marketing to understand how these techniques are being utilized in practice.
+
+- In predictive analysis, mastering advanced feature engineering techniques, understanding model interpretation methods, addressing imbalanced datasets, ensuring robust model deployment and monitoring, optimizing hyperparameters, and dealing with model explainability are key challenges and areas of my interest.
