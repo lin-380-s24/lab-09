@@ -4,11 +4,16 @@ author: "Lily"
 format: html
 ---
 
+<!--
+2024-04-29: Good job, Lily. This summarizes some key parts of predictive analysis. I would like to see you say a bit more on the workflow and perhaps contrast it with exploratory analysis.
+-->
+
 ### Self Assessment
+
 In this lab, I embarked on a comprehensive journey to understand the intricacies of predictive analysis, starting with the foundational step of using Git and GitHub for version control. This hands-on experience taught me how to select and prepare data specifically for text classification tasks, setting the stage for meaningful analysis.
 
 I learned the importance of conducting diagnostic checks on my data to ensure its quality and suitability for analysis. This critical step helped me understand the condition of my dataset before diving deeper into predictive modeling.
 
 Framing research questions became a crucial skill, guiding my analysis toward insightful and relevant outcomes. The lab introduced me to the complex process of feature engineering, where I explored how to identify, create, and select impactful features from my data. This involved understanding both linguistic and non-linguistic aspects, enhancing my ability to extract valuable insights from data.
 
-I hope I will use it in the writing of thesis. The saying I remember: All models are wrong, but some are useful.
+I hope I will use it in the writing of thesis. The saying I remember: All models are wrong, but some are useful. <!-- ;) -->
