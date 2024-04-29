@@ -1,0 +1,35 @@
+---
+title: "Lab 07: Data alchemy"
+---
+
+## Overview
+
+This is a lab to practice data manipulation and transformation. The dataset to be used is the State of the Union addresses from 1790 to present found in the `quanteda.corpora` package. The goal is to transform the data into a format that can be used for analysis.
+
+The assumed research question is as follows:
+
+> Are there any notable differences in the language used by presidents from pre- and post-9/11? Starting after WWII and up to the present?
+
+## Instructions
+
+This is a reproducible project (or a snippet of one). It takes advantage of Quarto websites to create a dynamic and interactive project. To run this project, you will need to have `quarto` installed on your machine. If you are using RStudio, this is already pre-installed on versions 2021.09.0 and later.
+
+Ensure that you have the necessary R packages installed by running the following code in an R Console:
+
+```r
+if (!require("pacman")) {
+  install.packages("pacman")
+}
+
+pacman::p_load(
+  tidyverse,
+  quanteda.corpora,
+  tidytext,
+  textdata,
+  knitr
+)
+
+pacman::p_load_gh("qtalr/qtalrkit")
+```
+
+After the necessary packages are installed, render the website project. If you are in RStudio, open the `index.qmd` file (this file) and click the "Render" button. If you are using the command line, navigate to the project directory and run `quarto preview`.

@@ -1,0 +1,20 @@
+project:
+  title: "Lab 07"
+  type: website
+  render:
+    - process/1_acquire_key.qmd
+    - process/2_curate_key.qmd
+    - process/3_transform_key.qmd
+    - process/4_analyze_key.qmd
+
+website:
+  title: "Data alchemy"
+  sidebar:
+    style: "docked"
+    contents:
+      - index.qmd
+      - section: "Process"
+        contents: process/*
+format:
+  html:
+    theme: cosmo
