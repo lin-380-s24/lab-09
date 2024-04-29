@@ -1,9 +1,13 @@
 ---
 title: "Self-assessment for lab 9"
-author: Abby Komiske 
-doc: pdf 
+author: Abby Komiske
+doc: pdf
 ---
 
-In lab 9, we went over how quantitative data analysis can be used to predict from corpora. The goals of this section were to understand how predictive data analysis can prescribe actions, examine outcome-predictor relationships, and assess hypotheses. We went over when to use this model to perform tasks such as classification or regression, ‘answer’ specific gaps in knowledge, and discover patterns alternative to possible inferences. ‘Predict’ should be used to identify, inspect, interrogate, and interpret data. For this lab, we used the ACTIV-ES corpus to create a predictive model that can determine if text is either Argentinian Spanish, Mexican Spanish, or Spanish Spanish. We used a multinomial logistic regression model with TF-IDF features and then improved the model's performance. 
+<!--
+2024-04-29: Nice summary. I'm glad this was interesting to you, it is to me too!
+-->
 
-I find the predictive goal to be the most interesting of the three goals, so I enjoyed this lab. This is especially true because my prospectus is on this. I think the statistical regression analysis aspect to be the most difficult but also a major takeaway from the lab.  
+In lab 9, we went over how quantitative data analysis can be used to predict from corpora. The goals of this section were to understand how predictive data analysis can prescribe actions, examine outcome-predictor relationships, and assess hypotheses. We went over when to use this model to perform tasks such as classification or regression, ‘answer’ specific gaps in knowledge, and discover patterns alternative to possible inferences. ‘Predict’ should be used to identify, inspect, interrogate, and interpret data. For this lab, we used the ACTIV-ES corpus to create a predictive model that can determine if text is either Argentinian Spanish, Mexican Spanish, or Spanish Spanish. We used a multinomial logistic regression model with TF-IDF features and then improved the model's performance.
+
+I find the predictive goal to be the most interesting of the three goals, so I enjoyed this lab. This is especially true because my prospectus is on this. I think the statistical regression analysis aspect to be the most difficult but also a major takeaway from the lab.
